@@ -12,7 +12,7 @@ namespace TB5.ConsoleApp.AdoDotNetSample
     public class AdoDotNetService
     {
         // fields
-        private string connectionString = "Data Source=.;Initial Catalog=Batch5MiniPOS;User ID=sa;Password=sasa@123;Trust Server Certificate=True;";
+        private String connectionString = "Data Source=dell\\MSSQLSERVER01;Initial Catalog=MiniPOS;User ID=sa;Password=sasa@123;Trust Server Certificate=True;";
 
         public void Create()
         {
@@ -147,9 +147,9 @@ WHERE Id = @Id";
 
     public class TblSale
     {
-        public int SaleId { get; set; }
+        public int SaleID { get; set; }
 
-        public int ProductId { get; set; }
+        public int ProductID { get; set; }
 
         public decimal Price { get; set; }
 

@@ -21,18 +21,20 @@ Console.WriteLine("Hello, World!");
 //Student student = new Student();
 //student.Name = name;
 //student.Age = Convert.ToInt32(age);
-//student.StudentNo = studentNo;  
+//student.StudentNo = studentNo;
 //student.SetMark(Convert.ToInt32(marks));
 //string grade = student.Grade();
 //Console.Write($"this student - {grade}");
 
-//SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=Batch5MiniPOS;User ID=sa;Password=sasa@123;Trust Server Certificate=True;");
+//SqlConnection conn = new SqlConnection("Data Source=dell\\MSSQLSERVER01;Initial Catalog=MiniPOS;User ID=sa;Password=sasa@123;Trust Server Certificate=True;");
 //conn.Open();
 //conn.Close();
 
 AdoDotNetService service = new AdoDotNetService();
 //service.Create();
-//service.Read();
-service.Edit();
+//service.Delete();
+//service.Update();
+service.Read();
+//service.Edit();
 
 Console.ReadLine();
