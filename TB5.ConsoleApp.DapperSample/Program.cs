@@ -3,10 +3,10 @@ using TB5.ConsoleApp.DapperSample.DapperSample;
 
 Console.WriteLine("Hello, World!");
 
-DapperService service = new DapperService();
-service.Create();
-service.Read();
-service.Edit();
+//DapperService service = new DapperService();
+//service.Create();
+//service.Read();
+//service.Edit();
 
 //SaleDapperService saleService = new SaleDapperService();
 //saleService.Read();
@@ -14,9 +14,9 @@ service.Edit();
 //saleService.Delete();
 //saleService.Create();
 
-//ProductCategoryDapperService categoryService = new ProductCategoryDapperService();
+ProductCategoryDapperService categoryService = new ProductCategoryDapperService();
 //categoryService.Create();
-//categoryService.Read();
+categoryService.Read();
 //categoryService.Update();
 //categoryService.Edit();
 //categoryService.Delete();
